@@ -3,7 +3,6 @@ import CheckMark from "../../assets/Checkmark.svg";
 import MockUp from "../../assets/Mockup.png";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import Team from "../Team/Team";
 
 const SliDer = styled.div`
   .slider {
@@ -89,8 +88,6 @@ const Silder = () => {
         </div>
       </div>
     </SliDer>
-    
-    <Team />
     </>
   );
 };

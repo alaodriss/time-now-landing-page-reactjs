@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../../assets/Logo.svg";
 import styled from "styled-components";
-import Silder from "../Silder/Silder";
 import { Link } from "react-router-dom";
 
 const Nb = styled.div`
@@ -55,7 +54,6 @@ const Header = () => {
           </div>
         </div>
       </Nb>
-      <Silder />
     </>
   );
 };

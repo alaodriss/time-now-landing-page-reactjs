@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Footer from "../footer/Footer";
 
 const SV = styled.div`
   .services {
@@ -82,8 +81,6 @@ const Service = () => {
           </div>
         </div>
       </SV>
-
-      <Footer />
     </>
   );
 };

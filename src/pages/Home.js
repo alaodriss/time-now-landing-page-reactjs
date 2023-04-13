@@ -1,10 +1,14 @@
 import React from 'react'
-import PageOne from '../components/Topbar/Navbar'
+import  Silder from '../components/Silder/Silder'
+import  Team from '../components/Team/Team'
+import Service from '../components/Service/Service'
 
 const Features = () => {
   return (
     <div>
-          <PageOne />
+       <Silder />
+       <Team />
+       <Service />
     </div>
   )
 }

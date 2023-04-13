@@ -7,7 +7,6 @@ import U5 from "../../assets/UA5.png";
 import U6 from "../../assets/UA6.png";
 import U7 from "../../assets/UA7.png";
 import styled from "styled-components";
-import Service from "../Service/Service.js";
 
 const TM = styled.div`
   .team {
@@ -65,7 +64,6 @@ const Team = () => {
         </div>
       </div>
     </TM>
-    <Service />
     </>
   );
 };
