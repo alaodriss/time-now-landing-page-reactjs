@@ -39,7 +39,6 @@ const Team = () => {
       <div className="team">
         <div className="team_profile">
           <h1>
-            {" "}
             TimeNow is uesd by the most
             <br /> influential peopole .
           </h1>
@@ -55,9 +54,9 @@ const Team = () => {
         </div>
         <div className="team_text">
           <p className="par1">
-            Egestas himenaeos mauris neque cum litora purus auctor libero.{" "}
+            Egestas himenaeos mauris neque cum litora purus auctor libero.
             <br /> Tincidunt phasellus lacinia magna <br /> ornare morbi
-            molestie ultricies{" "}
+            molestie ultricies
           </p>
           <p className="par2">
             Tincidunt phasellus lacinia magna ornare morbi <br /> molestie

@@ -1,9 +1,12 @@
 import React from 'react'
+import PageOne from '../components/Topbar/Navbar'
 
-const Home = () => {
+const Features = () => {
   return (
-    <div></div>
+    <div>
+          <PageOne />
+    </div>
   )
 }
 
-export default Home
+export default Features

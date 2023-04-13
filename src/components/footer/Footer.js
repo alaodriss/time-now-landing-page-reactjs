@@ -22,7 +22,29 @@ const FO = styled.div`
   .logo {
     position: absolute;
     top: 10%;
-    left: 6%;
+    left: 7%;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0;
+  }
+  .send_mail {
+    border-radius: 5px;
+    padding: 4px 2px;
+    border: 1px solid gray;
+  }
+  input {
+    border: none;
+  }
+  .start {
+    padding: 17px 20px;
+    background-color: #030385;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
   }
 `;
 
@@ -58,16 +80,11 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <ul>
-              <li className="titre">Product</li>
-              <li>Homepage</li>
-              <li>Pricing</li>
-              <li>Features</li>
-            </ul>
-          </div>
-          <div>
             <p>Try TwwetNow</p>
-            <input type="text" placeholder="Email Address" />
+            <div className="send_mail">
+              <input type="text" placeholder="Email Address" />
+              <input className="start" type="submit" value="Start Scheduling" />
+            </div>
           </div>
         </div>
       </div>

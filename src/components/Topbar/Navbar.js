@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/Logo.svg";
 import styled from "styled-components";
 import Silder from "../Silder/Silder";
+import { Link } from "react-router-dom";
 
 const Nb = styled.div`
   .navbar {
@@ -20,7 +21,10 @@ const Nb = styled.div`
   li {
     text-decoration: none;
     list-style-type: none;
-    padding-right: 30px;
+  }
+  a {
+    padding-left: 30px;
+    color: black;
   }
   button {
     padding: 17px 20px;
@@ -42,8 +46,8 @@ const Header = () => {
               <li>
                 <img src={logo} alt="logo" />
               </li>
-              <li>Features</li>
-              <li>Pricing</li>
+              <Link to="/">Features</Link>
+              <Link to="/pricing">Pricing</Link>
             </ul>
           </div>
           <div className="navbar_btn">
